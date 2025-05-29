@@ -1,0 +1,22 @@
+{
+  "name":"alone-webman/apple",
+  "type":"library",
+  "license":"MIT",
+  "version":"1.0.0",
+  "description":"生成ios描述文件",
+  "autoload":{
+    "psr-4":{
+      "AloneWebMan\\Apple\\":"src"
+    },
+    "files":[
+      "function.php"
+    ]
+  },
+  "require":{
+    "php":">=8.0"
+  },
+  "require-dev":{
+    "workerman/webman-framework":"^2.1",
+    "webman/console":"^2.1"
+  }
+}
